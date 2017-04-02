@@ -17,7 +17,7 @@
 
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <style name="Theme" parent="@android:style/Theme.Material.Light.DarkActionBar">
+    <style name="Theme" parent="@android:style/Theme.Material">
         <item name="android:colorPrimary">@color/calculator_accent_color</item>
         <item name="android:statusBarColor">@color/calculator_accent_color</item>
         <item name="android:windowSoftInputMode">stateAlwaysHidden</item>
@@ -29,6 +29,7 @@
         <item name="android:windowContentOverlay">@null</item>
         <item name="android:windowNoTitle">true</item>
         <item name="android:layoutDirection">ltr</item>
+	<item name="android:navigationBarColor">#0b0b0b</item>
     </style>
 
     <style name="Theme.Licenses">
